@@ -12,15 +12,21 @@ sudo apt-get install git
 ```
 git clone https://github.com/felloe/drupal8installer
 ```
+... change to the drupal8installer directory
+```
+cd drupal8installer
+```
 ... install Drupal 8
 ```
-sudo bash ./drupal8installer/drupal8.sh install
+sudo bash ./drupal8.sh install
 ```
 
 ## Remove
 Open a terminal and ...
 
+... change to the drupal8installer directory
+
 ... remove Drupal 8:
 ```
-sudo bash ./drupal8installer/drupal8.sh remove
+sudo bash ./drupal8.sh remove
 ```
