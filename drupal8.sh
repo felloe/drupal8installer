@@ -82,7 +82,7 @@ function installAll {
 	replace "Listen 80" "Listen $HOST:80" -- "$PORTS"
 
 	#create apache site configuration
-	cp $PWD/SITE.conf $SITE_CONF
+	cp $PWD/template.conf $SITE_CONF
 	replace "SITE" "$SITE" -- "$SITE_CONF"
 
 	#make site accessible from address bar through its name
